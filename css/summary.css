@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+*,body{ margin:0px;padding:0;}
+body { font: 12px/1.5 "Microsoft YaHei",Arial,Regular,Lucida,Verdana,Helvetica,sans-serif; color:#333; }
+h1, h3, h4, h5, h6 {font-size: 100%;font-weight: bold;}
+h2{font-size: 20px}/*鏇存敼鍐呭*/
+img { border:none; vertical-align:middle;}
+table {border-collapse: collapse;}
+input { margin:0px; padding:0px;}
+li { list-style:none; color:#333333;}
+a { text-decoration:none;}
+
+
+body{
+    background: #d1d2d2 url("../images/nrbg.jpg") 0 0 no-repeat;
+}
+
+.left{
+    float: left;
+    margin-top: 93px;
+}
+.left a{
+    cursor: pointer;
+}
+.left li{
+    display: block;
+    width: 206px;
+    height: 105px;
+    border: 1px solid #3a3a3a;
+    background-color: #2e2e2e;
+    position: relative;
+    margin-bottom: 1px;
+}
+.left li.active {
+    display: block;
+    width: 216px;
+    height: 105px;
+    border: 1px solid #0ebd85;
+    background-color: #0ac88b;
+}
+.left li.active .left_o{
+    display: block;
+}
+.left .left_num{
+    font-family: "Impact";
+    font-size: 25px;
+    line-height: 25px;
+    color: #757575;
+    position: absolute;
+    left: 15px;
+    top: 25px;
+}
+.left .left_title{
+    font-family: "Microsoft YaHei";
+    font-size: 25px;
+    line-height: 25px;
+    color: #ffffff;
+    position: absolute;
+    left: 15px;
+    bottom: 28px;
+}
+.left .left_o{
+    display: none;
+    color: #ffffff;
+    position: absolute;
+    right: 10px;
+    top: 43px;
+    line-height: 17px;
+    font-size: 17px;
+}
+.left li img{
+    width: 152px;
+    position: absolute;
+    top: 20px;
+    left: 22px;
+}
+
+.left em{
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    display: block;
+    color: #d0d0d0;
+    position: absolute;
+    left: 22px;
+    bottom: 34px;
+}
+.left p{
+    font-size:15px;
+    line-height: 15px;
+    color: #d0d0d0;
+    position: absolute;
+    left: 22px;
+    bottom: 15px;
+}
+.right{
+    float: left;
+    margin-left: 25px;
+    margin-top: 98px;
+    width: 743px;
+}
+.right_top{
+    padding-bottom: 24px;
+    background: url("../images/bottom.png") 0 bottom repeat-x;
+}
+
+.right_num{
+    font-size: 78px;
+    font-family: "impact";
+    color: #757575;
+    line-height: 78px;
+}
+.right_title{
+    font-size: 63px;
+    color: #000000;
+    font-family: "microsoft yahei";
+}
+.right_top p{
+    font-size: 34px;
+    color: #03b283;
+    line-height: 34px;
+}
+.right_info{
+    margin-top: 50px;
+}
+.right img{
+    position: absolute;
+    left: 728px;
+    top: 0px;
+}
+.right_info p{
+    font-size: 15px;
+    line-height: 20px;
+    text-indent: 2em;
+    color: #000000;
+}
+.next{
+    display: block;
+    background: url("../images/next.png");
+    width: 111px;
+    height: 64px;
+    margin: 40px auto 0px;
+    cursor: pointer;
+}
